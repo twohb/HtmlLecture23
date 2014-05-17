@@ -1,45 +1,25 @@
-h1 ,h2 {
-	color:blue; 
-	font-family: Arial;
-    font-size: 30px;
-    } 
 
-/*
-Using a "." with the class name will apply it to anything in its class 
-*/
-.Header {
-    color: orange;
-
-}
-
-p {
-color: purple;
-
-}
 
 #nav{
-    /* border: 1px solid black; */
-    height: 50px;
-    width: auto;
-    background-color: white;
-    margin: 0px auto;
+border: 1px solid black;
+height: 50px;
+width: 300px;
+background-color: white;
+margin: 0px auto;
 }
 
 #nav ul{
-    list-style: none;
+list-style-type: none;
 }
 
 #nav ul li{
-    border:1px solid black;
-    width: 70px;
-    display: inline;
-    padding: 10px;
-
+width: 70px;
+display: inline;
+padding: 10px;
 }
 
 #nav ul li a:link{
 text-decoration: none;
-
 }
 
 #nav ul li a:visited{
@@ -57,53 +37,20 @@ text-decoration: none;
 color: red;
 }
 
-
-
-
-p.Dummy{
-color: blue;
-font-size: 20px;
-}
-
-p#What{
-    color:purple;
-}
-
-.spanclass{
-    color: black;
-}
-
 #container{
-    border: 1px solid black;
-    height: auto;
-    width: 700px;
-    position: relative;
-    margin: 0px auto;
+border: 1px solid black;
+height: 600px;
+width: 700px;
+position: relative;
+margin: 0px auto;
 }
 
-#intro{
-    border: 1px solid black;
-    color: blue;
-    width: 100%;
-    height: auto;
-    background-color: orange;
-    position: absolute
-    left: 10px;
+#footer{
+border: 1px solid black;
+height: 40px:
+width: 700px;
+margin: 0px auto;
 }
 
-#overview{
-    font-family: Times New Roman;
-    border: 1px solid black;
-    color: blue;
-    width: 100%;
-    height: auto;
-    background-color: yellow;
-}
 
-#motivation{
-    border: 1px solid black;
-    color: blue;
-    width: 100%;
-    height: auto;
-    background-color: red;
-}
+
